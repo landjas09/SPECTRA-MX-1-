@@ -44,7 +44,7 @@ This documentation describes the supplied **Rev A PCB snapshot**, saved by KiCad
 | PCB layout and embedded footprints | Available in the supplied PCB snapshot |
 | Board/component 3D export | Available as SPECTRA_MX1.glb |
 | Studio renders and animation | Available |
-| Main project file, root schematic and child sheets | included in the repository |
+| Main project file, root schematic and child sheets | Included in the repository |
 | Custom library sources and library tables | Required for a complete editable project release |
 | BOM / purchasing data | Draft; imported metadata and generic components require review |
 | Firmware and host software | Not included in the reviewed handoff |
