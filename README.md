@@ -468,6 +468,9 @@ These counts describe the file and do not certify routing completeness, return-p
 <p align="center">
   <img src="docs/media/top.jpg" alt="Rev A component placement" width="520">
 </p>
+<p align="center">
+  <img src="docs/media/FRONT.PNG" alt="Rev A component placement" width="520">
+</p>
 
 ### Placement and reference strategy
 
