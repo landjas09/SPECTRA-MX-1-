@@ -25,7 +25,6 @@ SPECTRA MX-1 is a four-layer PCB designed in KiCad for low-frequency analog acqu
 - [External interfaces](#external-interfaces)
 - [PCB stackup and mechanics](#pcb-stackup-and-mechanics)
 - [BOM and component selection](#bom-and-component-selection)
-- [Repository files and opening the project](#repository-files-and-opening-the-project)
 - [Firmware scope](#firmware-scope)
 - [Bring-up and validation](#bring-up-and-validation)
 - [Pre-release engineering review](#pre-release-engineering-review)
@@ -512,29 +511,6 @@ Finalize exact orderable codes, package/pin variants, voltage/power ratings, res
 
 **C106 is intentionally labeled DNP in its value field.** Its source PCB attributes do not include the DNP flag. Align schematic/PCB population flags and exported BOM/position data before assembly.
 
-## Repository files and opening the project
-
-### Publication layout
-
-Keep the native KiCad project, root schematic and all child sheets together. The following is the intended repository organization; entries marked pending have not been reviewed as part of this snapshot.
-
-| File / directory | Purpose / availability |
-| --- | --- |
-| README.md | Project documentation |
-| MixedSignal_Analyzer_Generator.kicad_pcb | Reviewed PCB layout |
-| Matching .kicad_pro and root .kicad_sch | Main editable project; pending inclusion |
-| All child .kicad_sch sheets | Schematic hierarchy; pending inclusion |
-| Custom symbol/footprint libraries, fp-lib-table and sym-lib-table | Reproducible library dependencies; pending inclusion |
-| SPECTRA_MX1.glb | Supplied complete assembly export |
-| docs/media/ | README renders, calculated filter figure and animation |
-| docs/analysis/ | Reproducible nominal filter model and calculation results |
-| docs/board-inventory.md | Draft component inventory extracted from the PCB |
-| Firmware and host-software directories | Add when implementations are available |
-| Fabrication outputs and assembly data | Add after design-release review |
-| Validation reports | Add measured results and conditions when available |
-| LICENSE and third-party notices | Declare project reuse terms and preserve external asset licenses |
-
-The README package provides this document and its docs directory. Copy **README.md and docs/** together into the repository root so the relative media and analysis links resolve. The native hardware/project files remain separate release inputs.
 
 ### Opening the design
 
