@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "HT7533-1") (type "KiCad") (uri "${KIPRJMOD}/Symbols/HT7533-1.kicad_sym") (options "") (descr ""))
+	(lib (name "TLV62569DBVR") (type "KiCad") (uri "${KIPRJMOD}/Symbols/TLV62569DBVR.kicad_sym") (options "") (descr ""))
+	(lib (name "WE-CNSW_1206") (type "KiCad") (uri "${KIPRJMOD}/Symbols/WE-CNSW_1206.kicad_sym") (options "") (descr ""))
+	(lib (name "PESD3V3L1BA_115") (type "KiCad") (uri "${KIPRJMOD}/Symbols/PESD3V3L1BA_115.kicad_sym") (options "") (descr ""))
+	(lib (name "CDSOD323-T03C") (type "KiCad") (uri "${KIPRJMOD}/Symbols/CDSOD323-T03C.kicad_sym") (options "") (descr ""))
+)
