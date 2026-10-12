@@ -10,7 +10,7 @@ SPECTRA MX-1 is a four-layer PCB designed in KiCad for low-frequency analog acqu
   <img src="docs/media/hero.jpg" alt="SPECTRA MX-1 Rev A studio render" width="560">
 </p>
 
-*Studio visualization of the Rev A assembly. The illustrations show the intended assembly; physical hardware measurements are pending.*
+*Studio visualization of the Rev A assembly.
 
 ## Contents
 
