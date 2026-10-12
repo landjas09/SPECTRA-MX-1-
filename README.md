@@ -4,7 +4,7 @@
 
 SPECTRA MX-1 is a four-layer PCB designed in KiCad for low-frequency analog acquisition and signal generation, with a target operating band of **20 Hz–20 kHz**. An STM32F103 controls an external differential-input ADC and a dual-channel DAC through separate SPI interfaces. The board combines input conditioning, active filtering, reference generation, USB-C connectivity and BNC analog connectors.
 
-**Revision:** A · **Author:** [Akram Landjas](https://github.com/landjas09) · **Stage:** hardware design / pre-fabrication review
+**Revision:** A · **Author:** [Akram Landjas](https://github.com/landjas09) ·
 
 <p align="center">
   <img src="docs/media/hero.jpg" alt="SPECTRA MX-1 Rev A studio render" width="560">
