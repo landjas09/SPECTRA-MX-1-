@@ -685,11 +685,6 @@ The PCB snapshot is the source for component values, net connections, pin assign
 
 Confirm final supplier documents for the UMW HT7533-1, buck inductor, common-mode choke, protection devices, connectors and crystal when completing the BOM. Imported library descriptions are useful starting metadata and require part-specific verification.
 
-## Acknowledgments and licensing
-
-Thanks to [Phil's Lab](https://www.phils-lab.net/) for sharing his knowledge of mixed-signal hardware design. This acknowledgment credits the learning and design concepts used during the project.
-
-The project license has not yet been declared in the reviewed handoff. Add a LICENSE file when publishing the repository and keep third-party library/model licenses and attribution with their assets. The generic converter visualization model comes from KiCad's 3D library under its stated CC-BY-SA 4.0 terms with the electronic-design exception; see the [library license](https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md).
 
 **Maintainer:** [Akram Landjas — GitHub](https://github.com/landjas09)
 
