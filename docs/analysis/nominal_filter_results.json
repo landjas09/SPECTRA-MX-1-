@@ -1,0 +1,65 @@
+{
+  "model": "Current Rev A three-pole low-pass, ideal unity-gain buffer; analytical, not measured",
+  "resistors_ohms": [
+    6800.0,
+    22000.0,
+    12000.0
+  ],
+  "capacitors_farads": [
+    1e-09,
+    1e-09,
+    1.5e-10
+  ],
+  "denominator_coefficients_seconds": [
+    1,
+    1.292e-05,
+    8.652e-11,
+    2.6928e-16
+  ],
+  "minus_3_db_hz": 24054.872535541785,
+  "points": [
+    {
+      "frequency_hz": 20,
+      "gain_v_per_v": 1.0000000482709885,
+      "gain_db": 4.1927646905630893e-07
+    },
+    {
+      "frequency_hz": 1000,
+      "gain_v_per_v": 1.0001202860175493,
+      "gain_db": 0.0010447282415955307
+    },
+    {
+      "frequency_hz": 10000,
+      "gain_v_per_v": 1.0057758553120726,
+      "gain_db": 0.050024114451484164
+    },
+    {
+      "frequency_hz": 20000,
+      "gain_v_per_v": 0.8702092442067978,
+      "gain_db": -1.2075261504298678
+    },
+    {
+      "frequency_hz": 40000,
+      "gain_v_per_v": 0.21825359342143022,
+      "gain_db": -13.220771943031952
+    },
+    {
+      "frequency_hz": 50000,
+      "gain_v_per_v": 0.11528032639194491,
+      "gain_db": -18.764896051580866
+    },
+    {
+      "frequency_hz": 100000,
+      "gain_v_per_v": 0.014837433855054937,
+      "gain_db": -36.572824082160594
+    }
+  ],
+  "first_order_estimates_hz": {
+    "input_rf": 1061032.953945969,
+    "low_source_impedance_input_coupling": 0.7234315595086153,
+    "adc_reference_input_supply_filter": 318.94778174728526,
+    "analog_regulator_input_filter": 723.4315595086151,
+    "adc_differential_input_pair": 530516.4769729845,
+    "midpoint_divider_filter": 14.468631190172307
+  }
+}
