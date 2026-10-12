@@ -466,10 +466,10 @@ The modeled bare copper/dielectric stack sums to **1.570 mm**. The two 12.7 µm 
 These counts describe the file and do not certify routing completeness, return-path quality or DRC clearance. Verify filled copper around vias, connector pads and transitions; stored width values alone do not establish controlled impedance.
 
 <p align="center">
-  <img src="docs/media/top.jpg" alt="Rev A component placement" width="520">
+  <img src="docs/media/FRONT.PNG" alt="Rev A component placement" width="520">
 </p>
 <p align="center">
-  <img src="docs/media/FRONT.PNG" alt="Rev A component placement" width="520">
+  <img src="docs/media/top.jpg" alt="Rev A component placement" width="520">
 </p>
 
 ### Placement and reference strategy
